@@ -1,4 +1,3 @@
-setwd("C:/Users/John/Documents/R/Exploratory data analysis")
 df = read.csv2("household_power_consumption.txt", sep = ";",stringsAsFactors = FALSE)
 df = subset(df, Date %in% c("1/2/2007","2/2/2007"))
 
